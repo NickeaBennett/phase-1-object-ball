@@ -115,7 +115,7 @@ const gameObject = function object(){
         }
     } 
   }
-
+//Modified
   const object = gameObject();
   const players = [];
   for (let i in Object.keys(object["home"]["players"])) {
